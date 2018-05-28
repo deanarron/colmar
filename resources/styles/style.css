@@ -1,4 +1,5 @@
 /* General styles */
+
 html, button {
   font-size: 16px;
   background-color: #f2f5f5;
@@ -14,7 +15,7 @@ h1, h2, h3, h4 {
 }
 h2 {
   font-size: 1.8rem;
-  margin: 2rem 0 1.5rem 0;
+  margin-top: 2rem;
 }
 h3 {
   font-size: 1.6rem;
@@ -46,7 +47,9 @@ p,
     width: 100%;
     height: auto;
   }
-
+.left_col p {
+  margin-top: 1.5rem;
+}
 article {
   display: flex;
   align-items: center;
@@ -68,37 +71,45 @@ article h3,
 }
 
 /* Header */
+
 header {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   background-color: white;
   padding: 0.750rem 1.5rem;
   position: fixed;
   z-index: 100;
   width: 100%;
 }
+
 #desktop_header {
   display: flex;
   align-items: center;
 }
+
 .branding {
   display: flex;
   align-items: center;
   flex-grow: 1;
 }
+
 .logo {
   height: 4rem;
 }
+
 .brand_name {
   display: inline-block;
   text-transform: uppercase;
   font-size: 2rem;
 }
+
 .brand_name .strong {
   font-weight: bold;
 }
+
 .brand_name .light {
   color: #9b9b9b;
 }
+
 .nav_links {
   padding-left: 1rem;
 }
@@ -115,19 +126,27 @@ header {
   align-items: center;
   background-color: #d8d8d8;
 }
+
+#hero_section .right_col {
+  padding-left: 1.5rem;
+}
+
 #hero_section h1 {
   font-size: 3.2rem;
   padding-bottom: 2rem;
 }
+
 #hero_section .right_col {
   padding-right: 10%;
 }
+
 #hero_section h4 {
   font-size: 1.5rem;
   padding-bottom: 2rem;
   line-height: 1.5;
   font-weight: normal;
 }
+
 button {
   color: white;
   background-color: #4a4a4a;
@@ -138,19 +157,74 @@ button {
 }
 
 /* Information Section */
+
 #information {
   display: flex;
 }
+
 #information .right_col {
   border-left: 1px solid #d8d8d8;
 }
+
 #information article {
   border-bottom: 1px solid #d8d8d8;
   padding-left: 1rem;
 }
+
 .attribution {
   margin: 2rem 0 1.5rem 0;
 }
+
+/* Courses Section */
+#course_section {
+  background-color: #eaebec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses_container {
+  margin: 2rem 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.course {
+  background-color: white;
+  width: 32%;
+}
+
+.course:nth-child(1n+4){
+  margin-top: 2rem;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.course_text h3 {
+  padding: 1rem;
+}
+
+.course_text h5 {
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.course_text p {
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+/* Thesis */
+
+
+
 
 
 
