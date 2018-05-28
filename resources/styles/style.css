@@ -1,0 +1,162 @@
+/* General styles */
+html, button {
+  font-size: 16px;
+  background-color: #f2f5f5;
+  font-family: "Open Sans", sans-serif;
+  color: #4a4a4a;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.8rem;
+  margin: 2rem 0 1.5rem 0;
+}
+h3 {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+p,
+  a {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.left_col {
+  max-width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.right_col {
+  padding: 1rem 0;
+  max-width: 40%;
+}
+
+.left_col img,
+  .left_col video {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+article {
+  display: flex;
+  align-items: center;
+  transition: background-color 200ms linear 50ms;
+}
+
+article:hover {
+  background-color: #d8d8d8;
+}
+
+article img {
+  width: 35%;
+  height: auto;
+  margin: 1rem 0.5rem;
+}
+article h3,
+  article p {
+    padding: 0.5rem;
+}
+
+/* Header */
+header {
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 0.750rem 1.5rem;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+#desktop_header {
+  display: flex;
+  align-items: center;
+}
+.branding {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo {
+  height: 4rem;
+}
+.brand_name {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.brand_name .strong {
+  font-weight: bold;
+}
+.brand_name .light {
+  color: #9b9b9b;
+}
+.nav_links {
+  padding-left: 1rem;
+}
+
+#mobile_header {
+  display: none;
+}
+
+/*  Hero Section */
+
+#hero_section {
+  padding-top: 5.5rem;
+  display: flex;
+  align-items: center;
+  background-color: #d8d8d8;
+}
+#hero_section h1 {
+  font-size: 3.2rem;
+  padding-bottom: 2rem;
+}
+#hero_section .right_col {
+  padding-right: 10%;
+}
+#hero_section h4 {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  line-height: 1.5;
+  font-weight: normal;
+}
+button {
+  color: white;
+  background-color: #4a4a4a;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+/* Information Section */
+#information {
+  display: flex;
+}
+#information .right_col {
+  border-left: 1px solid #d8d8d8;
+}
+#information article {
+  border-bottom: 1px solid #d8d8d8;
+  padding-left: 1rem;
+}
+.attribution {
+  margin: 2rem 0 1.5rem 0;
+}
+
+
+
+
+
+
+
+
+/*  */

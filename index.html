@@ -3,18 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="resources/styles/reset.css">
+    <link rel="stylesheet" href="resources/styles/style.css">
   </head>
   <body>
     <!-- Header -->
     <header>
-      <div class="desktop_header">
+      <div id="desktop_header">
         <!-- Branding: Logo and Name -->
         <div class="branding">
-          <img class="ic" src="resources/images/ic-logo.svg" alt="Colmar Academy Logo">
+          <img class="ic logo" src="resources/images/ic-logo.svg" alt="Colmar Academy Logo">
           <div class="colmar_text_name">
-            <span class="brand_name">Colmar Academy</span>
+            <span class="brand_name"><span class="strong">Colmar</span><span class="light">Academy</span></span>
           </div>
         </div> <!-- End branding div -->
 
@@ -27,7 +29,7 @@
         </nav> <!-- End Nav -->
       </div> <!-- end Desktop Header-->
 
-      <div class="mobile_header">
+      <div id="mobile_header">
         <img class="ic" src="resources/images/ic-logo.svg" alt="Colmar Academy Logo">
         <img class="ic" src="resources/images/ic-on-campus.svg" alt="Campus Icon">
         <img class="ic" src="resources/images/ic-online.svg" alt="Online Icon">
@@ -40,15 +42,15 @@
 
       <section id="hero_section">
 
-        <div class="left_col">
+        <div class="column left_col">
           <img src="resources/images/banner.jpg" alt="Colmar Academy students reading">
         </div>
 
-        <div class="right_col">
+        <div class="column right_col">
           <h1>Learn something new every day</h1>
           <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          <button>Start here</button>
         </div>
-        <button>Start here</button>
 
       </section> <!-- End hero section -->
 
@@ -56,7 +58,7 @@
       <section id="information">
 
         <!-- Information Left column -->
-        <div class="left_col">
+        <div class="column left_col">
           <div class="asset">
             <img src="resources/images/information-main.jpg" alt="student reading">
           </div>
@@ -68,7 +70,7 @@
         </div> <!-- End left column -->
 
         <!-- Information right column -->
-        <div class="right_col">
+        <div class="column right_col">
           <article>
             <img src="resources/images/information-orientation.jpg" alt="students walking">
             <div class="article_text">
@@ -173,7 +175,7 @@
         </div>
 
         <!-- Thesis Left column -->
-        <div class="left_col">
+        <div class="column left_col">
           <div class="asset">
             <video src="resources/videos/thesis.mp4" type="video/mp4" autoplay loop>
               Your browser does not support the video tag.
@@ -184,7 +186,7 @@
         </div> <!-- End left column -->
 
         <!-- Thesis right column -->
-        <div class="right_col">
+        <div class="column right_col">
 
           <article>
             <img src="resources/images/thesis-fisma.jpg" alt="students walking">
