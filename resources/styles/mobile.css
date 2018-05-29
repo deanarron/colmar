@@ -11,6 +11,19 @@
       display: inline-block;
   }
 
+  section {
+    flex-direction: column;
+
+  }
+
+  .left_col {
+    max-width: 100%;
+    padding:0;
+  }
+  .right_col {
+    padding: 0;
+    max-width: 100%;
+  }
   /* Mobile Header Styles */
   header {
     padding: 1rem 0;
@@ -19,5 +32,59 @@
     display: flex;
     justify-content: space-around;
   }
+
+  /* Mobile Hero Section */
+  #hero_section {
+    padding-top: 4rem;
+  }
+
+  #hero_section h1 {
+    font-size: 2.8rem;
+    padding:1rem 0 2rem 0;
+  }
+
+  #hero_section .right_col {
+    padding-right: 1.5rem;
+  }
+
+  #hero_section h4 {
+    padding-bottom: 1.5rem;
+  }
+
+  button {
+    margin-bottom: 2rem;
+  }
+
+  /* Mobile Information Section */
+  article {
+    flex-direction: column;
+    padding: 0 1rem 2rem 1rem;
+  }
+
+  article img {
+    width: 100%;
+  }
+
+  .article_text {
+    align-self: flex-start;
+    margin-left: 0.5rem;
+  }
+
+  #information article {
+    border-bottom: none;
+  }
+
+  #information article:last-child {
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  /* Mobile Courses Section */
+  h2 {
+    font-size: 2.5rem;
+  }
+
+
+
+
 
 }
