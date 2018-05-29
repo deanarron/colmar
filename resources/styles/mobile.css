@@ -107,8 +107,17 @@
     color: #4a4a4a;
   }
 
+  /* Mobile Thesis Section */
+  .asset {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
 
-
-
+  /* Mobile Footer Section */
+  footer {
+    border-top: none;
+    padding: 1rem 0;
+  }
 
 }
+/* End Styles */

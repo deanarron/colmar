@@ -70,6 +70,7 @@ article h3,
   article p {
     padding: 0.5rem;
 }
+
 /* Header */
 
 header {
@@ -254,35 +255,4 @@ footer span {
   margin: 1rem 0 0 1.5rem;
   flex-grow: 1;
 }
-
-
-/* Mobile Styles */
-
-@media only screen and (max-width: 480px) {
-
-  /* Mobile General Styles*/
-
-  .desktop,
-    #desktop_header {
-      display: none;
-  }
-  .mobile,
-    #mobile_header {
-      display: inline-block;
-  }
-
-  /* Mobile Header Styles */
-  
-
-
-}
-
-
-
-
-
-
-
-
-
-/*  */
+/* End Styles */
