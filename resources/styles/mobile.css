@@ -1,21 +1,23 @@
 @media only screen and (max-width: 480px) {
 
   /* Mobile General Styles*/
-
   .desktop,
     #desktop_header {
       display: none;
   }
+
   .mobile,
     #mobile_header {
       display: inline-block;
   }
 
-  section {
-    flex-direction: column;
-
+  h2 {
+    font-size: 2.5rem;
   }
 
+  section {
+    flex-direction: column;
+  }
   .left_col {
     max-width: 100%;
     padding:0;
@@ -28,6 +30,7 @@
   header {
     padding: 1rem 0;
   }
+
   #mobile_header {
     display: flex;
     justify-content: space-around;
@@ -79,8 +82,29 @@
   }
 
   /* Mobile Courses Section */
-  h2 {
-    font-size: 2.5rem;
+  #course_section {
+    background-color: #f5f4f5;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .courses_container {
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0;
+    width: 100%;
+  }
+  .course:nth-child(1n+4){
+    margin-top: 0;
+  }
+  .course {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+  }
+  .course_text h3 {
+    width: 100%;
+    padding:2rem;
+    background-color: #d8d8d8;
+    color: #4a4a4a;
   }
 
 
