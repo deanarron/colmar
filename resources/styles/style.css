@@ -1,3 +1,4 @@
+
 /* General styles */
 
 html {
@@ -11,20 +12,28 @@ html {
 h1, h2, h3, h4 {
   font-family: "Roboto", sans-serif;
   line-height: 1.2;
+}
+h1, h2, h4 {
   font-weight: bold;
 }
 h2 {
   font-size: 1.8rem;
   margin-top: 2rem;
 }
+
 h3 {
   font-size: 1.7rem;
   font-weight: normal;
 }
+
 p,
   a {
     font-size: 1.1rem;
     line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: #2185e0;
 }
 .column {
   display: flex;
@@ -50,6 +59,7 @@ p,
 .left_col p {
   margin-top: 1.5rem;
 }
+
 article {
   display: flex;
   align-items: center;
@@ -66,6 +76,7 @@ article img {
   height: auto;
   margin: 1rem 0.5rem;
 }
+
 article h3,
   article p {
     padding: 0.5rem;
@@ -159,6 +170,7 @@ button {
   transition: background-color 100ms linear 50ms;
   outline: 0;
 }
+
 button:hover {
   background-color: #4a4a4a
 }
@@ -180,12 +192,13 @@ button:hover {
 .attribution {
   margin: 2rem 0 1.5rem 0;
 }
+
 .mobile {
   display: none;
 }
 
-
 /* Courses Section */
+
 #course_section {
   background-color: #eaebec;
   display: flex;
@@ -231,9 +244,8 @@ button:hover {
   font-size: 1.2rem;
 }
 
-
-
 /* Thesis */
+
 .section_heading {
   text-align: center;
 }
@@ -243,16 +255,20 @@ button:hover {
 }
 
 /* Footer */
+
 footer {
   height: 5rem;
   border-top: 1px solid #d8d8d8;
   display: flex;
 }
+
 footer span {
   margin: 1rem 1.5rem 0 0;
 }
+
 .copyright {
   margin: 1rem 0 0 1.5rem;
   flex-grow: 1;
 }
+
 /* End Styles */
