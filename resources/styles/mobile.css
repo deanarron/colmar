@@ -1,0 +1,23 @@
+@media only screen and (max-width: 480px) {
+
+  /* Mobile General Styles*/
+
+  .desktop,
+    #desktop_header {
+      display: none;
+  }
+  .mobile,
+    #mobile_header {
+      display: inline-block;
+  }
+
+  /* Mobile Header Styles */
+  header {
+    padding: 1rem 0;
+  }
+  #mobile_header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}
